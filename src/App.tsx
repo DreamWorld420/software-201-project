@@ -1,6 +1,5 @@
 import React from "react";
 import IntroductionCard from "./components/IntroductionCard";
-import Image from "./components/Image";
 
 const App: React.FC = () => {
 	console.log("app");
