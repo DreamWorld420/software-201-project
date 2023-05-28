@@ -2,6 +2,7 @@ import React from "react";
 import IntroductionCard from "./components/IntroductionCard";
 
 const App: React.FC = () => {
+	console.log("app");
 	return (
 		<div className="flex flex-col h-full gap-y-8 w-screen bg-[#2f3a5b] px-32 py-32">
 			<IntroductionCard
