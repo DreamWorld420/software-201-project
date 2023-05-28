@@ -6,7 +6,7 @@ const App: React.FC = () => {
 	return (
 		<div className="flex flex-col h-full gap-y-8 w-screen bg-[#2f3a5b] px-32 py-32">
 			<IntroductionCard
-				vectorSrc="/public/Instagram Video Streaming-amico.svg"
+				vectorSrc="Instagram Video Streaming-amico.svg"
 				vectorAlt="Instagram Video Streaming-amico"
 				height="24rem"
 			>
@@ -31,7 +31,7 @@ const App: React.FC = () => {
 				</article>
 			</IntroductionCard>
 			<IntroductionCard
-				vectorSrc="/public/Halloween Instagram feed-amico.svg"
+				vectorSrc="Halloween Instagram feed-amico.svg"
 				vectorAlt="Halloween Instagram feed-amico.svg"
 				height="24rem"
 			>
@@ -53,7 +53,7 @@ const App: React.FC = () => {
 				</article>
 			</IntroductionCard>
 			<IntroductionCard
-				vectorSrc="/public/Website Creator-cuate.svg"
+				vectorSrc="Website Creator-cuate.svg"
 				vectorAlt="Website Creator-cuate"
 				height="24rem"
 			>
@@ -78,7 +78,7 @@ const App: React.FC = () => {
 				</article>
 			</IntroductionCard>
 			<IntroductionCard
-				vectorSrc="/public/Online Review-amico.svg"
+				vectorSrc="Online Review-amico.svg"
 				vectorAlt="Online Review-amico"
 				height="24rem"
 			>
