@@ -13,7 +13,7 @@ const IntroductionCard: React.FC<IntroductionCardProps> = (props) => {
 
 	return (
 		<div
-			className="flex flex-row items-center even:flex-row-reverse bg-[#F0F0F0] text-[#2f3a5b] rounded-lg gap-x-4 py-8"
+			className="flex flex-row items-center even:flex-row-reverse bg-[#F0F0F0] text-[#2f3a5b] rounded-lg gap-x-4 py-8 px-4"
 			style={{
 				height,
 			}}

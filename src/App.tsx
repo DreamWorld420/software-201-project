@@ -8,14 +8,16 @@ const App: React.FC = () => {
 			<div className="w-full h-[42rem] relative">
 				<div className="w-full h-full relative flex items-center flex-row-reverse px-16">
 					<img
-						src="social-media-background-instagram.jpg"
+						src="joanna-kosinska-PbgY3ptgA4A-unsplash.jpg"
 						alt="bg"
 						className="w-full h-full object-cover absolute top-0 right-0"
 					/>
 					<section
 						style={{ direction: "rtl", position: "relative", zIndex: 10 }}
 					>
-						<h1 className="text-5xl font-bold text-[#f0f0f0] mb-8">اینشاپ</h1>
+						<h1 className="font-shabnam text-5xl font-bold text-[#f0f0f0] mb-8">
+							اینشاپ
+						</h1>
 						<p className="text-xl mb-4 text-[#f0f0f0]">
 							فروشگاهی از دل اینستاگرام شما
 						</p>
@@ -25,6 +27,19 @@ const App: React.FC = () => {
 					</section>
 				</div>
 				<div className="w-full h-full absolute z-100 top-0 right-0 bg-gradient-to-b from-[#00000000] from-70% to-[#2f3a5b]" />
+				<div className="w-full flex justify-center absolute top-[85%] right-0">
+					<button
+						className="bg-[#F9D949] hover:bg-[#f4e292] rounded-lg w-[8rem] h-[2rem]"
+						onClick={() => {
+							window.scrollTo({
+								behavior: "smooth",
+								top: 610,
+							});
+						}}
+					>
+						بیشتر بخوانید
+					</button>
+				</div>
 			</div>
 			<div className="flex flex-col h-full gap-y-16 w-screen px-32">
 				<IntroductionCard

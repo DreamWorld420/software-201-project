@@ -3,8 +3,13 @@
 	src: url("/src/assets/fonts/Vazirmatn-Regular.woff2") fromat("woff2");
 }
 
+@font-face {
+	font-family: "Shabnam";
+	src: url("/src/assets/fonts/Shabnam.woff2") fromat("woff2");
+}
+
 * {
-	font-family: "Vazir", sans-serif;
+	font-family: "Shabnam", sans-serif;
 }
 
 @tailwind base;
